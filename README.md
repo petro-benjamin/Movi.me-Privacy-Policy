@@ -1,6 +1,6 @@
 # Movi.me Privacy Policy
 
-**Last updated: October 2, 2026**
+**Last updated: October 5, 2026**
 
 This policy covers the Movi.me apps for **iPhone, iPad and Apple TV** ("the App"). Movi.me is a personal video library: it organises and plays videos that you supply — from your device, your drives, or a media server you run yourself. We wrote the App so that your data stays with you.
 
@@ -48,10 +48,10 @@ The App asks for these only when you use the matching feature:
 
 - **Photo Library** — to import videos you choose, and to save videos you export.
 - **Files** — to import videos from the Files app, drives and other locations you pick.
-- **Local Network** — to find and stream from media servers on your home network.
+- **Local Network** — to find and stream from media servers on your home network, and (Apple TV) for **Watch in another room**, which finds other Movi.me devices on the same home network and keeps them on the same title and spot. Those messages (which title, play/pause, position) travel only across your home network.
 - **Speech Recognition** (iPhone/iPad) — to turn a video's narration into notes. Recognition runs **on the device**; audio is not sent anywhere.
 
-**SharePlay and AirPlay** are optional. SharePlay shares playback state (which title, position, play/pause) with the people in your FaceTime call through Apple's SharePlay service. AirPlay sends the video stream to the receiver you choose.
+**SharePlay and AirPlay** are optional. SharePlay (iPhone, iPad and Apple TV) shares playback state — which title (its name, IMDb ID and your media server's address for it), position, play/pause — with the people in your FaceTime call through Apple's SharePlay service. AirPlay sends the video stream to the receiver you choose.
 
 ## 5. Analytics, advertising and tracking
 
