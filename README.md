@@ -48,7 +48,7 @@ The App asks for these only when you use the matching feature:
 
 - **Photo Library** — to import videos you choose, and to save videos you export.
 - **Files** — to import videos from the Files app, drives and other locations you pick.
-- **Local Network** — to find and stream from media servers on your home network, and (Apple TV) for **Watch in another room**, which finds other Movi.me devices on the same home network and keeps them on the same title and spot. Those messages (which title, play/pause, position) travel only across your home network.
+- **Local Network** — to find and stream from media servers on your home network, and for **Watch in another room**, which finds other Movi.me devices (Apple TV, iPhone, iPad) on the same home network and keeps them on the same title and spot. Those messages (which title, play/pause, position) travel only across your home network.
 - **Speech Recognition** (iPhone/iPad) — to turn a video's narration into notes. Recognition runs **on the device**; audio is not sent anywhere.
 
 **SharePlay and AirPlay** are optional. SharePlay (iPhone, iPad and Apple TV) shares playback state — which title (its name, IMDb ID and your media server's address for it), position, play/pause — with the people in your FaceTime call through Apple's SharePlay service. AirPlay sends the video stream to the receiver you choose.
