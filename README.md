@@ -1,6 +1,6 @@
 # Movi.me Privacy Policy
 
-**Last updated: October 5, 2026**
+**Last updated: October 7, 2026**
 
 This policy covers the Movi.me apps for **iPhone, iPad and Apple TV** ("the App"). Movi.me is a personal video library: it organises and plays videos that you supply — from your device, your drives, or a media server you run yourself. We wrote the App so that your data stays with you.
 
@@ -9,6 +9,7 @@ This policy covers the Movi.me apps for **iPhone, iPad and Apple TV** ("the App"
 - Movi.me has **no accounts server, no cloud, no analytics, no advertising SDKs and no tracking.**
 - Everything the App knows — accounts, settings, watch progress, lists — is stored **on your device**.
 - The App talks to outside services only to fetch **movie information, artwork and subtitles**, and only with **API keys you provide**. They receive titles or IDs, never anything about you.
+- **Optional:** Movi.me Sync, a small program **you** run on your own server, lets your devices and the friends you invite see what each other is watching and watch together. It runs on your server, not ours.
 
 ## 1. Data stored on your device
 
@@ -26,6 +27,15 @@ We (the developer) never receive any of this data.
 ## 2. Your media servers
 
 If you add a media server, the App connects directly from your device to the address you enter — on your home network, or through a VPN such as Tailscale — to list and stream your files. That traffic goes only between your device and your server. If you use a VPN, the VPN provider's own policy applies to that connection.
+
+**Movi.me Sync (optional).** If your household runs Movi.me Sync on its own server (for **Friends & Household** and watching together), your devices send it:
+
+- your username and a key derived from your password — **never the password itself**;
+- each device's name and your **profile name** (what your household and friends see — your username is never shown to them);
+- your friend links, made only through one-time invites that you send;
+- **only while something plays**: what's playing and where (title, position, play/pause, and the Live TV channel and its schedule if you're on one).
+
+What's playing is kept **only in memory** on that server and shown only to your own household and — when "Allow friends to Join" is on and you've chosen "Friends can join" — to the friends you've linked. **No viewing history is kept.** The server stores households, devices, friend links and unused invite codes in a file on your server, which you can delete at any time. Movi.me Sync sends nothing to us or to anyone else.
 
 ## 3. Third-party services
 
@@ -48,7 +58,7 @@ The App asks for these only when you use the matching feature:
 
 - **Photo Library** — to import videos you choose, and to save videos you export.
 - **Files** — to import videos from the Files app, drives and other locations you pick.
-- **Local Network** — to find and stream from media servers on your home network, and for **Watch in another room**, which finds other Movi.me devices (Apple TV, iPhone, iPad) on the same home network and keeps them on the same title and spot. Those messages (which title, play/pause, position) travel only across your home network.
+- **Local Network** — to find and stream from media servers on your home network, and for **Watch on another device**, which (when there's no Movi.me Sync) finds other Movi.me devices (Apple TV, iPhone, iPad) on the same home network and keeps them on the same title and spot. Those messages (which title, play/pause, position) travel only across your home network.
 - **Speech Recognition** (iPhone/iPad) — to turn a video's narration into notes. Recognition runs **on the device**; audio is not sent anywhere.
 
 **SharePlay and AirPlay** are optional. SharePlay (iPhone, iPad and Apple TV) shares playback state — which title (its name, IMDb ID and your media server's address for it), position, play/pause — with the people in your FaceTime call through Apple's SharePlay service. AirPlay sends the video stream to the receiver you choose.
